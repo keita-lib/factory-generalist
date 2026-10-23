@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+
+# 学習ログ・チェックポイント（数 GB あるので入れない）
+logs/
+# Luna のロボットモデル（README の手順で各自 clone する）
+third_party/
+# 動かしたときの出力（画像・動画）
+out/
+# MuJoCo が書き出すデバッグ用のダンプ
+MJDATA.TXT
+MJMODEL.TXT
+MUJOCO_LOG.TXT
+screenshot.png
